@@ -138,7 +138,7 @@ int main(int argc, const char* argv[])
 	patch.close();
 	output.close();
 
-	std::cout << "Patched " << std::dec << byte_count << " bytes with " << record_count << " records" << std::endl;
+	std::cout << "Patched " << byte_count << " bytes with " << record_count << " records" << std::endl;
 
 	return EXIT_SUCCESS;
 }
